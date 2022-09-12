@@ -1,12 +1,25 @@
-body{
-    background-color: rgba(255, 0, 170, 0.603);
-    font-family: cursive;
-    font-size: 16px;
-    color: rgba(244, 220, 255, 0.897);
+*{background-color: rgb(233, 32, 32);color:rgb(0, 0, 0);}
+header{
+    background-color: black;
+    height: 300px;
+    display:flex ;
+    
 }
-h1{
-    text-align: center;
-    text-decoration-line: overline;
+header img{
+    height: 100%;
+}
 
-
+header ul{
+    background-color: rgb(219, 7, 7);
+    list-style: none;
+    display: flex;
+    justify-content: center ;
+    align-items:center; 
+  
+}
+header ul li{
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    
 }
