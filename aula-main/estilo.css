@@ -1,0 +1,77 @@
+:root{
+    --fundo: #808080;
+    --cinza:#FFFFFF;
+    --vermelho:#FF0000;
+    --black:#000000;
+}
+
+*{
+   
+    margin: 0; padding: 0;
+background-color:var(--fundo);color: var(--black);}
+header{
+    background-color: rgba(233, 223, 223, 0.452);
+    height: 300px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+header img{
+    height: 100%;
+}
+
+header ul{
+    background-color: rgb(219, 7, 7);
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items:center; 
+    text-align:  center;
+  
+}
+header ul li{
+    display: flex;
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    background-image: linear-gradient(var(--vermelho),var(--cinza));
+    border-radius: 50px;
+    justify-content: center ;
+    align-items:center; 
+    text-align:  center;
+    
+    
+    
+}
+
+.baner{
+    background-color: var(--fundo);
+    height: 500px;
+    animation: slide1 10s infinite;
+}
+
+@keyframes slide1{
+    0%,35%{
+        background-image: url(The\ Blacklist\ -\ Temporada\ 5\ -\ Copia.jpg);
+        background-repeat: no-repeat;
+        background-position: center ;
+        background-size: 100%;
+    }
+    35%,65%{
+        background-image: url(the-blacklist-4.jpg);
+        background-repeat: no-repeat;
+        background-position: center ;
+        background-size: 100%;
+    }
+    
+}
+.local{
+    background-color:var(--vermelho) ;
+
+    
+    
+
+}
